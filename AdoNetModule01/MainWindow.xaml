@@ -5,8 +5,32 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AdoNetModule01"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="400" Width="750">
     <Grid>
-        
+
+
+        <TabControl>
+
+            <TabItem Header="SqlClient">
+                <StackPanel>
+                    <Button x:Name="ConnectToServerButton" VerticalAlignment="Top" Width="150" Height="20" Click="ConnectToServerButton_OnClick">Button</Button>
+                    <TextBlock x:Name="ConnectMessage" Margin="0, 30, 0, 0" Width="Auto">
+
+                    </TextBlock>
+                </StackPanel>
+            </TabItem>
+
+            <TabItem Header="OleDb">
+                <StackPanel>
+                    <Button x:Name="ConnectToServer" VerticalAlignment="Top" Width="150" Height="20" Click="ConnectToServer_OnClick">Button</Button>
+                    <TextBlock x:Name="ConnMessage" Margin="0, 30, 0, 0" Width="Auto">
+
+                    </TextBlock>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+
+
     </Grid>
+
 </Window>
