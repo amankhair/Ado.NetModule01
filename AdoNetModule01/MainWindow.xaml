@@ -22,7 +22,7 @@
 
             <TabItem Header="OleDb">
                 <StackPanel>
-                    <Button x:Name="ConnectToServer" VerticalAlignment="Top" Width="150" Height="20" Click="ConnectToServer_OnClick">Button</Button>
+                    <Button x:Name="ConnectToServer" VerticalAlignment="Top" Width="150" Height="20" Click="ConnectToServer_OnClick">ButtonOle</Button>
                     <TextBlock x:Name="ConnMessage" Margin="0, 30, 0, 0" Width="Auto">
 
                     </TextBlock>
